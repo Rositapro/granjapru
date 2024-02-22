@@ -11,8 +11,8 @@ namespace granjapru
         public Perro()
         {
             sonido = "guauf";
-            tipo = "terrestre";
-            estado = "feliz";
+            tipo = "terrestrial";
+            estado = "happy";
         }
 
         public override void Nombrar(string newName)
@@ -34,7 +34,7 @@ namespace granjapru
 
         public override string ToString()
         {
-            return " guauf mucho gusto, me llamo betoben " + nombre;
+            return "My name is " + nombre;
         }
     }
 }

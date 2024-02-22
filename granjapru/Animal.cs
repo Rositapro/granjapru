@@ -10,7 +10,7 @@ namespace granjapru
 
     public class Animal
     {
-      public  string nombre;
+       public  string nombre;
        public string sonido;
        public  string tipo;
        public string estado;

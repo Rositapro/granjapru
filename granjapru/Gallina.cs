@@ -11,8 +11,8 @@ namespace granjapru
         public Gallina()
         {
             sonido = "cua cua";
-            tipo = "terrestre";
-            estado = "feliz";
+            tipo = "terrestrial";
+            estado = "happy";
         }
 
         public override void Nombrar(string newName)
@@ -34,7 +34,7 @@ namespace granjapru
 
         public override string ToString()
         {
-            return " cuak mucho gusto, me llamo turuleca " + nombre;
+            return "My name is " + nombre;
         }
     }
 }

@@ -12,8 +12,8 @@ namespace granjapru
         public Vaca() 
         {
             sonido = "muuu";
-            tipo = "terrestre";
-            estado = "feliz";
+            tipo = "terrestrial";
+            estado = "happy";
         }
 
         public override void Nombrar(string newName)
@@ -35,7 +35,7 @@ namespace granjapru
 
         public override string ToString()
         {
-            return "muuuuuucho gusto, me llamo lola" + nombre;
+            return "My name is " + nombre;
         }
     }
 }
